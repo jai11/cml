@@ -1,4 +1,4 @@
-FROM python:3.9.1
+FROM python:3
 RUN apt-get update
 ADD . /mlops_jenkins
 WORKDIR /mlops_jenkins
