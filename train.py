@@ -15,7 +15,7 @@ minio_uri=os.environ.get('MINIO_URI')
 mlflow_uri=os.environ.get('MLFLOW_URI')
 
 # Set random seed
-seed = 42
+seed = 44
 
 ################################
 ########## DATA PREP ###########
