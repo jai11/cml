@@ -16,7 +16,7 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python cml_unit.py
+          python train.py
           
           echo "## Model metrics" > report.md
           cat metrics.txt >> report.md
