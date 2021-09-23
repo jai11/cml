@@ -14,6 +14,7 @@ minio_secret_access_key=os.environ.get('MINIO_SECRET_ACCESS_KEY')
 minio_uri=os.environ.get('MINIO_URI')
 mlflow_uri=os.environ.get('MLFLOW_URI')
 
+
 # Set random seed
 seed = 44
 
